@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "image": "https://res.cloudinary.com/dcbantk1f/image/upload/v1690085661/screencapture-blog-desk-fe-onrender-2023-07-23-09_45_42_o15wds.png",
+            "title": "Blog Desk",
+            "description": "Built a deceptive blog website using the MERN stack, exploiting its functionalities to achieve dishonest results.",
+            "createdBy": ["React.js", "Tailwind", "Node.js", "Express.js", "MongoDB"],
+            "github": "https://github.com/JR404-Cyber",
+            "live": "https://blog-desk-fe.onrender.com/"
+        },
+        {
+            "image": "https://res.cloudinary.com/dcbantk1f/image/upload/v1690087607/screencapture-127-0-0-1-5500-2023-07-23-10_46_28_bppgxw.png",
+            "title": "Hit the ball",
+            "description": "Crafted an engaging multiplayer game with HTML, CSS, and JS, delivering an interactive gaming experience for players to enjoy together in real-time.",
+            "createdBy": ["HTML", "CSS", "Bootstrap", "JavaScript"],
+            "github": "https://github.com/JR404-Cyber/Md.Julfikar_Rayim",
+            "live": "https://jr404-cyber.github.io/Md.Julfikar_Rayim/"
+        },
+        {
+            "image": "https://res.cloudinary.com/dcbantk1f/image/upload/v1690088116/screencapture-localhost-3000-2023-07-23-10_51_26_1_wpv0ik.png",
+            "title": "Portfolio Website",
+            "description": "Unique portfolio using Next.js, TypeScript, Tailwind CSS, and raw CSS, featuring creative design to showcase personal achievements and skills.",
+            "createdBy": ["Next.js", "CSS", "Tailwind", "TypeScript"],
+            "github": "https://github.com/JR404-Cyber/julfikar",
+            "live": "https://jr404-cyber.github.io/julfikar/"
+        }
+    ]
+}
