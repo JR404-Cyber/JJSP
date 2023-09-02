@@ -1,0 +1,143 @@
+
+/* services section styling */
+.services, .teams{
+    color:#fff;
+    background: #111;
+}
+/* .serv-content{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+} */
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    height: 20rem;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.services .serv-content .card:hover{
+    background: crimson;
+}
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card i{
+    font-size: 50px;
+    color: crimson;
+    transition: color 0.3s ease;
+}
+.services .serv-content .card:hover i{
+    color: #fff;
+}
+.services .serv-content .card .text{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.services .serv-content .card .box img{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+    .services .serv-content .card .box img{
+        width: 60px;
+        height: 60px;
+    }
+    .card p {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .services .serv-content .card .box img{
+        width: 55px;
+        height: 55px;
+    }
+    .services .serv-content .card .box div{
+        font-size: 18px;
+    }
+    .card p {
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .services .serv-content .card .box img{
+        width: 50px;
+        height: 50px;
+    }
+    .services .serv-content .card .box div{
+        font-size: 15px;
+    }
+    .card p {
+        font-size: 11.5px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .services .serv-content .card{
+        width: 100%;
+    }
+    .services .serv-content .card .box img{
+        width: 70px;
+        height: 70px;
+    }
+    .services .serv-content .card .box div{
+        font-size: 22px;
+    }
+    .services .serv-content .card{
+        margin-bottom: 0px;
+    }
+    .card p {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 650px) {
+    .services .serv-content .card{
+        width: 100%;
+        height: 22rem;
+    }
+    .services .serv-content .card .box img{
+        width: 60px;
+        height: 60px;
+    }
+    .services .serv-content .card .box div{
+        font-size: 18px;
+    }
+    .card p {
+        font-size: 11px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .services .serv-content .card{
+        width: 100%;
+        height: 22rem;
+    }
+    .services .serv-content .card .box img{
+        width: 60px;
+        height: 60px;
+    }
+    .services .serv-content .card .box div{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .services .serv-content .card{
+        width: 100%;
+        height: 22rem;
+    }
+    .card p {
+        font-size: 14px;
+    }
+}
